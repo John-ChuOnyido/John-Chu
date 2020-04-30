@@ -1,0 +1,6 @@
+#the program will help in auto heneration of unique code by John Chukwunanu (John-Chu) Onyido
+import random
+def uniqueid():
+	Necessity = str(random.randint(10000000, 99999999))
+	return Necessity
+print(uniqueid())
